@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Luculla&nbsp;|&nbsp;The Best of the Best</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" type="image/x-icon" href="images/perfumepng.ico">
+</head>
+<body>
+
+    <nav class="heading">
+        <span id="headName"><img src="images/perfumefull.png" alt="Perfume Logo" id="perfumeLogo">Luculla</span>
+        <ul class="nav">
+            <li class="navLink" id="currentNav">Home</li>
+            <li class="navLink"><a href="about.html">About</a></li>
+            <li class="navLink"><button id="faqBtn">FAQ</button></li>    
+        </ul>
+        <input type="text" placeholder="Search..." >
+    </nav>
+    
+    <div id="hr1">
+        <hr>
+    </div>
+
+    <div class="contentHome">
+        
+        <h1 id="contentHead1">
+            Featured
+        </h1>
+
+        <br>
+        <br>
+
+        <div class="baseColumn">
+
+            <button id="calvinBtn" class="columnBtn">
+            <div class="column">
+                
+                <img src="images\Calvin-Klein-One.jpg">
+                <h1 class="calvin">
+                    Calvin Klein One
+                </h1>
+                
+                <p style="background-color: white; font-weight: 600;">
+                    Purity. Unity. Sensuality. The revolutionary first CK fragrance is designed for men and women to share. 
+                    Clean and contemporary with a refreshing green tea signature throughout, it is intended to be used lavishly.
+                </p>
+                
+            </div>
+            </button>
+            
+
+            <button id="versaceBtn" class="columnBtn">
+            <div class="column">
+
+                <img src="images\Versace-Eros.jpg">
+                <h1 class="versace">
+                    Versace Eros</a>
+                </h1>
+                
+                <p style="background-color: white; font-weight: 600;">
+                    Masculine and confident, the new Eros Eau de Parfum is a fragrance for a bold, passionate man.
+                </p>
+
+            </div>
+            </button>
+            
+            <button id="diorBtn" class="columnBtn">
+            <div class="column">
+
+                <img src="images\Christian-Dior-Sauvage-Elixir.jpg">
+                <h1 class="dior">
+                    Dior Sauvage Elixir
+                </h1>
+                
+                <p style="background-color: white; font-weight: 600;">
+                    Sauvage Elixir is an extraordinarily concentrated fragrance steeped in the emblematic 
+                    freshness of Sauvage with an intoxicating heart of spices.
+                </p>
+
+            </div>
+            </button>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Unfortunately, this function is just a demo. :(</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="moreOption">
+        <div class="moreOption1" id="moreContent">
+            <div class="column1">
+                <img src="">
+                <p>
+                    More Products
+                </p>
+            </div>
+            <div class="column1">
+                <img src="">
+                <p>
+                    More Products
+                </p>
+            </div>
+            <div class="column1">
+                <img src="">
+                <p>
+                    More Products
+                </p>
+            </div>
+            <div class="column1">
+                <img src="">
+                <p>
+                    More Products
+                </p>
+            </div>
+        </div>
+        <br>
+        <button type="button" onclick="myBtn()" id="moreButton"><i id="animateArrow" class="material-icons">keyboard_arrow_down</i>&nbsp;Show More</button>
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
